@@ -1,0 +1,33 @@
+{
+  "name": "vite-plugin-watch-env",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "vite-plugin",
+    "watch-env",
+    "dot-env",
+    "env"
+  ],
+  "author": "tjc.enoch.c@gmail.com",
+  "license": "MIT",
+  "homepage": "https://github.com/Enoooch/vite-plugin-watch-env",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Enoooch/vite-plugin-watch-env.git"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --dts"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.5",
+    "dotenv": "^10.0.0",
+    "tsup": "^5.11.9",
+    "typescript": "^4.5.4",
+    "vite": "2.7.9"
+  }
+}
